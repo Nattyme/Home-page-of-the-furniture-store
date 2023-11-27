@@ -1,0 +1,30 @@
+.info-hint {
+    width: 112px;
+    height: 56px;
+    background: url('./../img/icons/hint.svg');
+}
+
+.info-hint__radio {
+
+}
+
+.info-hint__radio-fake {
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+
+    background-color: gray;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.10);
+
+    &--orange {
+        background-color: var(--ui-orange);
+    }
+    &--biruza {
+        background-color: var(--ui-biruza);
+    }
+    &--gray {
+        background-color: var(--ui-gray);
+    }
+}
