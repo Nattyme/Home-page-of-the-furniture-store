@@ -51,27 +51,37 @@
 
 .header__dot-sofa {
     position: absolute;
-    left: calc(288 * 100% / 1440 ); // 1140 = 100%, 296 = x // x = 296 * 100 / 1140 
-    top: calc(694 * 100% / 1084 ); // 1084 = 100%, 694 = x;
+    left: calc(289 * 100% / 1440 ); // 1140 = 100%, 296 = x // x = 296 * 100 / 1140 
+    top: calc(679 * 100% / 1084 ); // 1084 = 100%, 694 = x;
+    // left: calc(300 * 100% / 1440 ); 
+    // top: calc(690 * 100% / 1084 );
 }
 
 .header__dot-vase {
-    position: absolute;
-    left: calc(114 * 100% / 1440 ); 
-    top: calc(754 * 100% / 1084 ); 
+    position:   absolute;
+    left: calc(102 * 100% / 1440 ); 
+    top: calc(742 * 100% / 1084 ); 
+    // left: calc(113 * 100% / 1440 ); 
+    // top: calc(753 * 100% / 1084 );  
 }
 
 .header__dot-sculpture {
     position: absolute;
-    left: calc(811 * 100% / 1440 ); 
-    top: calc(788 * 100% / 1084 ); 
+    left: calc(800 * 100% / 1440 ); 
+    top: calc(777 * 100% / 1084 ); 
+    // left: calc(811 * 100% / 1440 ); 
+    // top: calc(788 * 100% / 1084 ); 
 }
 
 .header__dot-pot {
     position: absolute;
-    right: calc(47 * 100% / 1440 ); 
-    top: calc(822 * 100% / 1084 ); 
+    left: calc(1371 * 100% / 1440 ); 
+    top: calc(811 * 100% / 1084 ); 
+    // left: calc(1382 * 100% / 1440 ); 
+    // top: calc(822 * 100% / 1084 ); 
 }
+
+
 
 
 

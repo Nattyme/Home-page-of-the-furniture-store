@@ -165,26 +165,26 @@ html, body {
 /* Dots*/
 .header__dot-sofa {
   position: absolute;
-  left: 20%;
-  top: 64.0221402214%;
+  left: 20.0694444444%;
+  top: 62.6383763838%;
 }
 
 .header__dot-vase {
   position: absolute;
-  left: 7.9166666667%;
-  top: 69.557195572%;
+  left: 7.0833333333%;
+  top: 68.4501845018%;
 }
 
 .header__dot-sculpture {
   position: absolute;
-  left: 56.3194444444%;
-  top: 72.6937269373%;
+  left: 55.5555555556%;
+  top: 71.6789667897%;
 }
 
 .header__dot-pot {
   position: absolute;
-  right: 3.2638888889%;
-  top: 75.8302583026%;
+  left: 95.2083333333%;
+  top: 74.815498155%;
 }
 
 .nav {
@@ -270,8 +270,6 @@ html, body {
 
 .info-dot {
   position: relative;
-  border: none;
-  background: none;
   cursor: pointer;
 }
 
