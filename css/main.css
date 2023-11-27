@@ -314,9 +314,20 @@ html, body {
   }
 }
 .info-hint {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   width: 112px;
   height: 56px;
   background: url("./../img/icons/hint.svg");
+}
+
+.info-hint__radio {
+  display: none;
+}
+
+.info-hint__radio:checked + .info-hint__radio-fake {
+  background-image: url("./../img/icons/check-box.svg");
 }
 
 .info-hint__radio-fake {
