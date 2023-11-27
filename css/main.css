@@ -314,8 +314,9 @@ html, body {
   }
 }
 .info-hint {
+  padding-top: 12px;
   display: flex;
-  align-items: center;
+  justify-content: center;
   gap: 8px;
   width: 112px;
   height: 56px;
