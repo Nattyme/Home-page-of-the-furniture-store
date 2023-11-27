@@ -1,10 +1,17 @@
 .info-hint {
     padding-top: 12px;
+    width: 112px;
+    height: 56px;
+
+    position: absolute;
+    top: -26px;
+    left: 50%;
+    transform: translate(-50%, -100%);
+
     display: flex;
     justify-content: center;
     gap: 8px;
-    width: 112px;
-    height: 56px;
+
     background: url('./../img/icons/hint.svg');
 }
 
@@ -20,6 +27,8 @@
 
 .info-hint__radio:checked + .info-hint__radio-fake {
     background-image: url('./../img/icons/check-box.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .info-hint__radio-fake {
