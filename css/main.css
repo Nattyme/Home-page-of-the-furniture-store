@@ -116,6 +116,7 @@ html, body {
 }
 
 .header {
+  padding-top: 40px;
   background-color: var(--footer-bg);
   background-image: url(./../img/header/header-bg.jpg);
   background-size: cover;
@@ -137,6 +138,20 @@ html, body {
   gap: 20px;
 }
 
+.nav__logo {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0.28px;
+  text-transform: capitalize;
+  align-self: center;
+}
+
 .nav-list {
   justify-self: center;
+  align-self: center;
+}
+
+.cart {
+  align-self: center;
+  justify-self: end;
 }/*# sourceMappingURL=main.css.map */
