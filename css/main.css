@@ -441,4 +441,32 @@ body {
 
 .products__link {
   text-align: center;
+}
+
+.tab-controls {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px;
+  border-radius: 44px;
+  background: #EEE;
+}
+
+.tab-controls__btn {
+  height: 45px;
+  padding: 7px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  color: rgba(31, 31, 31, 0.8);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.85; /* 33.3px */
+  transition: background-color 0.2s ease-in;
+}
+.tab-controls__btn:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.tab-controls__btn--active {
+  background-color: #FFF;
 }/*# sourceMappingURL=main.css.map */
