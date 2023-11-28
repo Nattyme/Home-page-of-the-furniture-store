@@ -400,7 +400,7 @@ body {
   opacity: 0.8;
 }
 
-.benefit__link {
+.read-more {
   display: inline-flex;
   align-items: center;
   gap: 13px;
@@ -410,9 +410,12 @@ body {
   line-height: 1.85; /* 25.9px */
   color: var(--accent);
 }
-.benefit__link::after {
+.read-more::after {
   content: url(./../img/icons/arrow-right.svg);
   height: 24px;
+}
+.read-more--large {
+  font-size: 18px;
 }
 
 .products {
