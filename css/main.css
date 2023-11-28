@@ -119,6 +119,10 @@ html, body {
   display: none !important;
 }
 
+body {
+  padding-bottom: 50vh;
+}
+
 .header {
   position: relative;
   padding-top: 40px;
@@ -365,4 +369,52 @@ html, body {
 }
 .info-hint__radio-fake--gray {
   background-color: var(--ui-gray);
+}
+
+.benefits {
+  padding: 120px 0;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.benefits__title {
+  max-width: 260px;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.benefit__title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.benefit__text {
+  margin-bottom: 14px;
+  font-size: 16px;
+  line-height: 1.85; /* 29.6px */
+  opacity: 0.8;
+}
+
+.benefit__link {
+  font-size: 14px;
+  position: relative;
+  font-weight: 500;
+  line-height: 1.85; /* 25.9px */
+  color: var(--accent);
+}
+
+.benefit__link::after {
+  display: inline-block;
+  width: 48px;
+  height: 24px;
+  content: "";
+  position: absolute;
+  top: 1;
+  right: -61px;
+  background: url(./../img/icons/arrow-right.svg);
 }/*# sourceMappingURL=main.css.map */
