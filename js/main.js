@@ -1,21 +1,22 @@
-const infoBtns = document.querySelectorAll('.info-dot');
-const infoHints = document.querySelectorAll('.info-hint');
+const infoBtns = document.querySelectorAll(".info-dot");
+const infoHints = document.querySelectorAll(".info-hint");
 
 //Клик по кнопкам с подсказками
 for (let btn of infoBtns) {
-    btn.addEventListener('click', showHint);
-}
-
-function showHint(e) {
+  btn.addEventListener("click", function (e) {
     e.stopPropagation();
-    this.parentNode.querySelector('.info-hint').classList.toggle('none');
+    this.parentNode.querySelector(".info-hint").classList.toggle("none");
+  });
 }
 
-// Закрываем подсказку при клика по документу 
-document.addEventListener('click', closeHints);
+// Закрываем подсказку при клика по документу
+document.addEventListener("click", function () {
+  for (let hint of infoHints) {
+    hint.classList.add("none");
+  }
+});
 
-function closeHints () {
+// Запрещаем всплытие события клика при клике на подсказки
 for (let hint of infoHints) {
-    hint.classList.add('none');
-}
+  hint.addEventListener("click", (e) => e.stopPropagation());
 }
