@@ -401,20 +401,16 @@ body {
 }
 
 .benefit__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 13px;
   font-size: 14px;
   position: relative;
   font-weight: 500;
   line-height: 1.85; /* 25.9px */
   color: var(--accent);
 }
-
 .benefit__link::after {
-  display: inline-block;
-  width: 48px;
+  content: url(./../img/icons/arrow-right.svg);
   height: 24px;
-  content: "";
-  position: absolute;
-  top: 1;
-  right: -61px;
-  background: url(./../img/icons/arrow-right.svg);
 }/*# sourceMappingURL=main.css.map */
