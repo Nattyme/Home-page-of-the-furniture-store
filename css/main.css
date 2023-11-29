@@ -437,8 +437,6 @@ body {
 
 .products__slider {
   margin-bottom: 60px;
-  display: flex;
-  justify-content: space-around;
 }
 
 .products__link {
@@ -565,8 +563,6 @@ body {
 
 .slider {
   position: relative;
-  display: flex;
-  gap: 42px;
 }
 
 .slider__btn {
