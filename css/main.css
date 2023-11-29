@@ -437,6 +437,8 @@ body {
 
 .products__slider {
   margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
 }
 
 .products__link {
@@ -469,4 +471,24 @@ body {
 }
 .tab-controls__btn--active {
   background-color: #FFF;
+}
+
+.card {
+  width: 268px;
+}
+
+.card__photo {
+  height: 240px;
+  text-align: center;
+  border-radius: 20px 20px 0 0;
+  background-color: #fafafa;
+}
+
+.card__img {
+  margin-top: -50px;
+}
+
+.card__desc {
+  border-radius: 0 0 20px 20px;
+  background-color: #fff;
 }/*# sourceMappingURL=main.css.map */
