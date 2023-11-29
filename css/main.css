@@ -475,6 +475,8 @@ body {
 
 .card {
   width: 268px;
+  font-family: var(--font-cards);
+  color: var(--text-card-dark-blue);
 }
 
 .card__photo {
@@ -489,6 +491,61 @@ body {
 }
 
 .card__desc {
+  padding: 14px 22px 28px;
+  height: 202px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
   border-radius: 0 0 20px 20px;
   background-color: #fff;
+}
+
+.card__category {
+  font-size: 16px;
+  color: var(--text-muted);
+}
+
+.card__title {
+  font-size: 21px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.card__rating {
+  display: flex;
+  gap: 3px;
+}
+
+.card__footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__price {
+  display: flex;
+  align-items: flex-start;
+  gap: 3px;
+  font-size: 21px;
+  font-weight: 600;
+}
+.card__price::before {
+  content: attr(data-value);
+  font-size: 15px;
+}
+
+.card__btn {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: var(--ui-dark-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0;
+  transition: opacity 0.2s ease-in;
+}
+.card__btn:hover {
+  opacity: 0.8;
 }/*# sourceMappingURL=main.css.map */
