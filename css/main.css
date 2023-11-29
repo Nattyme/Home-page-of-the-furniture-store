@@ -250,11 +250,12 @@ body {
 
 .search-form {
   display: flex;
-  height: 56px;
-  max-width: 344px;
-  padding: 8px 8px 8px 20px;
+  gap: 10px;
   justify-content: space-between;
   align-items: center;
+  max-width: 344px;
+  height: 56px;
+  padding: 8px 8px 8px 20px;
   border-radius: 42px;
   border: 0.862px solid rgba(255, 255, 255, 0.6);
   background: rgba(255, 255, 255, 0.15);
@@ -263,6 +264,7 @@ body {
 }
 
 .search-form__input {
+  flex-grow: 1;
   font-size: 18px;
   font-weight: 500;
   line-height: 1.5; /* 27px */
@@ -278,6 +280,7 @@ body {
 }
 
 .search-form__btn {
+  flex-shrink: 0;
   width: 40px;
   height: 40px;
   border-radius: 24px;
