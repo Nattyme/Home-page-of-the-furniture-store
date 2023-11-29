@@ -23,14 +23,28 @@ for (let hint of infoHints) {
 
 // Siper slider 
 const swiper = new Swiper('.swiper', {
-  // Optional parameters
-  // loop: true,
+  loop: true,
+  freeMode: true,
   slidesPerView: 4,
   spaceBetween: 42,
 
-  // Navigation arrows
   navigation: {
     nextEl: '#sliderNext',
     prevEl: '#sliderPrev',
   },
+
+  // breakpoints: {
+  //   640: {
+  //     slidesPerView: 2,
+  //     spaceBetween: 20,
+  //   },
+  //   768: {
+  //     slidesPerView: 4,
+  //     spaceBetween: 40,
+  //   },
+  //   1024: {
+  //     slidesPerView: 5,
+  //     spaceBetween: 50,
+  //   },
+  // },
 });

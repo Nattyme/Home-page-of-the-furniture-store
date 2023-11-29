@@ -577,6 +577,7 @@ body {
 }
 
 .slider__btn--prev {
+  z-index: 1;
   position: absolute;
   left: 0;
   top: 50%;
@@ -584,6 +585,7 @@ body {
 }
 
 .slider__btn--next {
+  z-index: 1;
   position: absolute;
   right: 0;
   top: 50%;
