@@ -2,9 +2,14 @@
     padding: 118px 0 56px;
     background-color: var(--footer-bg);
     color: var(--footer-text-color);
+
+    a {
+        color: var(--footer-text-color);
+    }
 }
 
 .footer__grid {
+    margin-bottom: 118px;
     display: grid;
     grid-template-columns: 3fr 1fr 2fr 2fr 2fr;
     gap: 20px;
@@ -15,4 +20,15 @@
 }
 
 .footer__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__copyright {
+
+}
+
+.footer__links {
+    display: flex;
+    gap: 40px;
 }

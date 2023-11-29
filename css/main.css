@@ -199,6 +199,13 @@ body {
   top: 74.815498155%;
 }
 
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0.28px;
+  text-transform: capitalize;
+}
+
 .nav {
   display: grid;
   grid-template-columns: 2fr 8fr 2fr;
@@ -206,10 +213,6 @@ body {
 }
 
 .nav__logo {
-  font-size: 28px;
-  font-weight: 700;
-  letter-spacing: 0.28px;
-  text-transform: capitalize;
   align-self: center;
 }
 
@@ -601,8 +604,12 @@ body {
   background-color: var(--footer-bg);
   color: var(--footer-text-color);
 }
+.footer a {
+  color: var(--footer-text-color);
+}
 
 .footer__grid {
+  margin-bottom: 118px;
   display: grid;
   grid-template-columns: 3fr 1fr 2fr 2fr 2fr;
   gap: 20px;
@@ -610,4 +617,14 @@ body {
 
 .footer__nav--services {
   grid-column-start: 3;
+}
+
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__links {
+  display: flex;
+  gap: 40px;
 }/*# sourceMappingURL=main.css.map */
