@@ -64,10 +64,15 @@ for( let btn of tabsBtns) {
 
   // Отобразить нужные товары и скрыть все товары 
   for (let product of tabsProducts) {
-    if (product.dataset.tabValue == this.dataset.tab) {
+    // Проверка на отображение всех слайдов
+    if (this.dataset.tab == 'all') {
       product.classList.remove('none');
     } else {
-      product.classList.add('none');
+      if (product.dataset.tabValue == this.dataset.tab) {
+        product.classList.remove('none');
+      } else {
+        product.classList.add('none');
+      }
     }
   }
 
