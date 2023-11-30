@@ -228,6 +228,10 @@ body {
   font-weight: 500;
 }
 
+.nav-list__item {
+  position: relative;
+}
+
 .nav-list__link--dropdown {
   display: flex;
   align-items: center;
@@ -236,6 +240,12 @@ body {
 .nav-list__link--dropdown::after {
   height: 18px;
   content: url("./../img/icons/arrow-down.svg");
+}
+
+.nav-list__sub-nav {
+  position: absolute;
+  left: 0;
+  top: 100%;
 }
 
 .cart {

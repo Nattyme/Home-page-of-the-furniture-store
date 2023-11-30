@@ -13,10 +13,11 @@
 }
 
 .nav-list__item {
+    position: relative;
 }
 
 .nav-list__link {
-    
+
     &--dropdown {
         display: flex;
         align-items: center;
@@ -27,4 +28,10 @@
             content: url('./../img/icons/arrow-down.svg');
             }
     }
+}
+
+.nav-list__sub-nav {
+    position: absolute;
+    left: 0;
+    top: 100%;
 }
