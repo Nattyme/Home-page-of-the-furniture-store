@@ -61,7 +61,7 @@ for( let btn of tabsBtns) {
     }
     // Добавляем активный класс к текущей кнопке
   this.classList.add('tab-controls__btn--active');
-  
+
   // Отобразить нужные товары и скрыть все товары 
   for (let product of tabsProducts) {
     if (product.dataset.tabValue == this.dataset.tab) {
@@ -70,6 +70,9 @@ for( let btn of tabsBtns) {
       product.classList.add('none');
     }
   }
+
+  // Update swiper
+  swiper.update();
   });
 }
 
