@@ -9,10 +9,22 @@
 
     font-size: 18px;
     font-weight: 500;
+    
 }
 
 .nav-list__item {
 }
 
 .nav-list__link {
+    
+    &--dropdown {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        &::after {
+            height: 18px;
+            content: url('./../img/icons/arrow-down.svg');
+            }
+    }
 }
