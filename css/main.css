@@ -227,6 +227,11 @@ body {
   font-size: 18px;
   font-weight: 500;
 }
+@media (max-width: 992px) {
+  .nav-list {
+    display: none;
+  }
+}
 
 .nav-list__item {
   position: relative;
